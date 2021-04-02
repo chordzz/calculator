@@ -1,0 +1,71 @@
+@font-face {
+  font-family: digital-7;
+  src: url(digital-7.ttf);
+}
+
+.container {
+  max-width: 400px;
+  min-height: 300px;
+  background-color: rgb(66, 63, 63);
+  padding: 10px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgb(173, 194, 153);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.display {
+  width: 90%;
+  height: 90px;
+  background-color: rgb(190, 236, 144);
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  text-align: right;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  font-family: digital-7;
+  /* font-size: 2rem; */
+  /* margin-top: 10px; */
+}
+
+.active {
+  font-size: 3rem;
+  display: block;
+  margin-left: 5px;
+}
+
+.pressed {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+.keys {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px 20px;
+  color: white;
+  margin: 10px 0;
+  margin-right: 5px;
+  background-color: rgb(170, 58, 58);
+  border-radius: 5px;
+  font-size: 2rem;
+  box-shadow: 3px 5px 5px rgb(26, 26, 34);
+  cursor: pointer;
+}
+
+.equal {
+  text-align: center;
+  flex-grow: 0.5;
+}
