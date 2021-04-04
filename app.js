@@ -199,6 +199,10 @@ const textBasedCalculator = () => {
     "Enter operator ( either +, -, *, square root or / ): "
   );
 
+  if (!operator) {
+    return alert("Bye");
+  }
+
   // take the operand input
   if (operator === "square root") {
     number3 = parseFloat(prompt("Enter number: "));
